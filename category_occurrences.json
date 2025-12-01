@@ -1,0 +1,698 @@
+{
+    "person/face": [
+        "human_face_split.json",
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split4_val.json",
+        "mp100_split5_test.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/klipspringer_face": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/commonwarthog_face": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_val.json"
+    ],
+    "animal_face/dassie_face": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/alpaca_face": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Sciuridae/squirrel_body": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_val.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Leporidae/rabbit_body": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Mephitidae/skunk_body": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_val.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Canidae/fox_body": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/bighornsheep_face": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Felidae/lion_body": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_val.json",
+        "mp100_split5_train.json"
+    ],
+    "Equidae/horse_body": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_val.json"
+    ],
+    "bird/Woodpecker": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_val.json"
+    ],
+    "Bovidae/bison_body": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_val.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "bird/Tern": [
+        "mp100_split1_test.json",
+        "mp100_split2_val.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_val.json"
+    ],
+    "Bovidae/sheep_body": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Canidae/dog_body": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "furniture/swivelchair": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_val.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "furniture/bed": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_val.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/long_sleeved_outwear": [
+        "mp100_split1_test.json",
+        "mp100_split2_val.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/short_sleeved_dress": [
+        "mp100_split1_test.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/camel_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/quokka_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_val.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "animal_face/onager_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_val.json",
+        "mp100_split5_test.json"
+    ],
+    "animal_face/proboscismonkey_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/pademelon_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/olivebaboon_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/germanshepherddog_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "animal_face/arcticwolf_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_val.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "Felidae/panther_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_val.json"
+    ],
+    "animal_face/fallowdeer_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/grizzlybear_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/californiansealion_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/gerbil_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_val.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "animal_face/capebuffalo_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_val.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/capybara_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/blackbuck_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/greyseal_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/fennecfox_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/gibbons_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "animal_face/bonobo_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_val.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "vehicle/suv": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_val.json",
+        "mp100_split5_test.json"
+    ],
+    "Felidae/leopard_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_val.json"
+    ],
+    "animal_face/chipmunk_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "Felidae/cheetah_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Felidae/bobcat_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_val.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "Procyonidae/raccoon_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Ursidae/polar_bear_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "vehicle/bus": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "Ursidae/panda_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "animal_face/ferret_face": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "bird/Grebe": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "Mustelidae/otter_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_val.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_val.json"
+    ],
+    "Muridae/rat_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "Canidae/wolf_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_val.json",
+        "mp100_split5_train.json"
+    ],
+    "Rhinocerotidae/rhino_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_val.json"
+    ],
+    "vehicle/car": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "Elephantidae/elephant_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_val.json",
+        "mp100_split4_val.json",
+        "mp100_split5_test.json"
+    ],
+    "bird/Kingfisher": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_val.json"
+    ],
+    "Giraffidae/giraffe_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Suidae/pig_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "Bovidae/cow_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Hippopotamidae/hippo_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Cercopithecidae/spider_monkey_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Cervidae/deer_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_val.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "Bovidae/antelope_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "Equidae/zebra_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "bird/Wren": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Felidae/cat_body": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "bird/Gull": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/short_sleeved_outwear": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "animal/locust": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "bird/Sparrow": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "bird/Warbler": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "furniture/table": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/sling": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_val.json"
+    ],
+    "furniture/sofa": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "furniture/chair": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/sling_dress": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/long_sleeved_dress": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "hand/hand": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/vest": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/vest_dress": [
+        "mp100_split1_train.json",
+        "mp100_split2_val.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/skirt": [
+        "mp100_split1_train.json",
+        "mp100_split2_val.json",
+        "mp100_split3_train.json",
+        "mp100_split4_val.json",
+        "mp100_split5_test.json"
+    ],
+    "clothes/long_sleeved_shirt": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/shorts": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_test.json"
+    ],
+    "clothes/trousers": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "clothes/short_sleeved_shirt": [
+        "mp100_split1_train.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_val.json",
+        "mp100_split5_train.json"
+    ],
+    "person/person": [
+        "mp100_split1_train.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/goldenretriever_face": [
+        "mp100_split1_val.json",
+        "mp100_split2_test.json",
+        "mp100_split3_train.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/guanaco_face": [
+        "mp100_split1_val.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/przewalskihorse_face": [
+        "mp100_split1_val.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_val.json",
+        "mp100_split5_train.json"
+    ],
+    "Castoridae/beaver_body": [
+        "mp100_split1_val.json",
+        "mp100_split2_test.json",
+        "mp100_split3_val.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal_face/gentoopenguin_face": [
+        "mp100_split1_val.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "Cricetidae/hamster_body": [
+        "mp100_split1_val.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_val.json",
+        "mp100_split5_test.json"
+    ],
+    "Hominidae/gorilla_body": [
+        "mp100_split1_val.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "Mustelidae/weasel_body": [
+        "mp100_split1_val.json",
+        "mp100_split2_val.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ],
+    "animal/fly": [
+        "mp100_split1_val.json",
+        "mp100_split2_train.json",
+        "mp100_split3_test.json",
+        "mp100_split4_train.json",
+        "mp100_split5_train.json"
+    ],
+    "animal/macaque": [
+        "mp100_split1_val.json",
+        "mp100_split2_train.json",
+        "mp100_split3_train.json",
+        "mp100_split4_test.json",
+        "mp100_split5_train.json"
+    ]
+}

@@ -1,0 +1,2603 @@
+[
+    {
+        "file": "human_face_split.json",
+        "num_categories": 1,
+        "categories": [
+            {
+                "name": "person/face",
+                "num": 217,
+                "id": 40
+            }
+        ]
+    },
+    {
+        "file": "mp100_split1_test.json",
+        "num_categories": 20,
+        "categories": [
+            {
+                "name": "animal_face/klipspringer_face",
+                "num": 100,
+                "id": 10
+            },
+            {
+                "name": "animal_face/commonwarthog_face",
+                "num": 100,
+                "id": 77
+            },
+            {
+                "name": "animal_face/dassie_face",
+                "num": 100,
+                "id": 24
+            },
+            {
+                "name": "animal_face/alpaca_face",
+                "num": 100,
+                "id": 47
+            },
+            {
+                "name": "Sciuridae/squirrel_body",
+                "num": 100,
+                "id": 33
+            },
+            {
+                "name": "Leporidae/rabbit_body",
+                "num": 100,
+                "id": 29
+            },
+            {
+                "name": "Mephitidae/skunk_body",
+                "num": 100,
+                "id": 70
+            },
+            {
+                "name": "Canidae/fox_body",
+                "num": 100,
+                "id": 68
+            },
+            {
+                "name": "animal_face/bighornsheep_face",
+                "num": 100,
+                "id": 81
+            },
+            {
+                "name": "Felidae/lion_body",
+                "num": 100,
+                "id": 73
+            },
+            {
+                "name": "Equidae/horse_body",
+                "num": 100,
+                "id": 2
+            },
+            {
+                "name": "bird/Woodpecker",
+                "num": 100,
+                "id": 14
+            },
+            {
+                "name": "Bovidae/bison_body",
+                "num": 100,
+                "id": 30
+            },
+            {
+                "name": "bird/Tern",
+                "num": 100,
+                "id": 53
+            },
+            {
+                "name": "Bovidae/sheep_body",
+                "num": 100,
+                "id": 42
+            },
+            {
+                "name": "Canidae/dog_body",
+                "num": 100,
+                "id": 3
+            },
+            {
+                "name": "furniture/swivelchair",
+                "num": 100,
+                "id": 39
+            },
+            {
+                "name": "furniture/bed",
+                "num": 100,
+                "id": 84
+            },
+            {
+                "name": "clothes/long_sleeved_outwear",
+                "num": 100,
+                "id": 78
+            },
+            {
+                "name": "clothes/short_sleeved_dress",
+                "num": 100,
+                "id": 60
+            }
+        ]
+    },
+    {
+        "file": "mp100_split1_train.json",
+        "num_categories": 70,
+        "categories": [
+            {
+                "name": "animal_face/camel_face",
+                "num": 140,
+                "id": 37
+            },
+            {
+                "name": "animal_face/quokka_face",
+                "num": 143,
+                "id": 36
+            },
+            {
+                "name": "animal_face/onager_face",
+                "num": 145,
+                "id": 56
+            },
+            {
+                "name": "animal_face/proboscismonkey_face",
+                "num": 145,
+                "id": 89
+            },
+            {
+                "name": "animal_face/pademelon_face",
+                "num": 147,
+                "id": 65
+            },
+            {
+                "name": "animal_face/olivebaboon_face",
+                "num": 147,
+                "id": 69
+            },
+            {
+                "name": "animal_face/germanshepherddog_face",
+                "num": 149,
+                "id": 74
+            },
+            {
+                "name": "animal_face/arcticwolf_face",
+                "num": 150,
+                "id": 19
+            },
+            {
+                "name": "Felidae/panther_body",
+                "num": 151,
+                "id": 9
+            },
+            {
+                "name": "animal_face/fallowdeer_face",
+                "num": 157,
+                "id": 23
+            },
+            {
+                "name": "animal_face/grizzlybear_face",
+                "num": 159,
+                "id": 79
+            },
+            {
+                "name": "animal_face/californiansealion_face",
+                "num": 163,
+                "id": 13
+            },
+            {
+                "name": "animal_face/gerbil_face",
+                "num": 164,
+                "id": 93
+            },
+            {
+                "name": "animal_face/capebuffalo_face",
+                "num": 164,
+                "id": 82
+            },
+            {
+                "name": "animal_face/capybara_face",
+                "num": 165,
+                "id": 99
+            },
+            {
+                "name": "animal_face/blackbuck_face",
+                "num": 172,
+                "id": 94
+            },
+            {
+                "name": "animal_face/greyseal_face",
+                "num": 180,
+                "id": 34
+            },
+            {
+                "name": "animal_face/fennecfox_face",
+                "num": 182,
+                "id": 4
+            },
+            {
+                "name": "animal_face/gibbons_face",
+                "num": 188,
+                "id": 61
+            },
+            {
+                "name": "animal_face/bonobo_face",
+                "num": 200,
+                "id": 57
+            },
+            {
+                "name": "vehicle/suv",
+                "num": 204,
+                "id": 51
+            },
+            {
+                "name": "Felidae/leopard_body",
+                "num": 207,
+                "id": 52
+            },
+            {
+                "name": "animal_face/chipmunk_face",
+                "num": 207,
+                "id": 7
+            },
+            {
+                "name": "Felidae/cheetah_body",
+                "num": 212,
+                "id": 85
+            },
+            {
+                "name": "Felidae/bobcat_body",
+                "num": 216,
+                "id": 21
+            },
+            {
+                "name": "Procyonidae/raccoon_body",
+                "num": 216,
+                "id": 90
+            },
+            {
+                "name": "Ursidae/polar_bear_body",
+                "num": 216,
+                "id": 76
+            },
+            {
+                "name": "vehicle/bus",
+                "num": 216,
+                "id": 38
+            },
+            {
+                "name": "Ursidae/panda_body",
+                "num": 216,
+                "id": 5
+            },
+            {
+                "name": "animal_face/ferret_face",
+                "num": 216,
+                "id": 63
+            },
+            {
+                "name": "bird/Grebe",
+                "num": 216,
+                "id": 59
+            },
+            {
+                "name": "Mustelidae/otter_body",
+                "num": 216,
+                "id": 50
+            },
+            {
+                "name": "Muridae/rat_body",
+                "num": 216,
+                "id": 88
+            },
+            {
+                "name": "Canidae/wolf_body",
+                "num": 216,
+                "id": 100
+            },
+            {
+                "name": "Rhinocerotidae/rhino_body",
+                "num": 216,
+                "id": 31
+            },
+            {
+                "name": "vehicle/car",
+                "num": 216,
+                "id": 32
+            },
+            {
+                "name": "Elephantidae/elephant_body",
+                "num": 216,
+                "id": 26
+            },
+            {
+                "name": "bird/Kingfisher",
+                "num": 216,
+                "id": 41
+            },
+            {
+                "name": "Giraffidae/giraffe_body",
+                "num": 216,
+                "id": 71
+            },
+            {
+                "name": "Suidae/pig_body",
+                "num": 216,
+                "id": 15
+            },
+            {
+                "name": "Bovidae/cow_body",
+                "num": 216,
+                "id": 87
+            },
+            {
+                "name": "Hippopotamidae/hippo_body",
+                "num": 216,
+                "id": 54
+            },
+            {
+                "name": "Cercopithecidae/spider_monkey_body",
+                "num": 216,
+                "id": 43
+            },
+            {
+                "name": "Cervidae/deer_body",
+                "num": 216,
+                "id": 27
+            },
+            {
+                "name": "Bovidae/antelope_body",
+                "num": 216,
+                "id": 58
+            },
+            {
+                "name": "Equidae/zebra_body",
+                "num": 216,
+                "id": 55
+            },
+            {
+                "name": "bird/Wren",
+                "num": 216,
+                "id": 16
+            },
+            {
+                "name": "Felidae/cat_body",
+                "num": 217,
+                "id": 20
+            },
+            {
+                "name": "bird/Gull",
+                "num": 217,
+                "id": 28
+            },
+            {
+                "name": "clothes/short_sleeved_outwear",
+                "num": 217,
+                "id": 83
+            },
+            {
+                "name": "animal/locust",
+                "num": 217,
+                "id": 44
+            },
+            {
+                "name": "bird/Sparrow",
+                "num": 217,
+                "id": 46
+            },
+            {
+                "name": "bird/Warbler",
+                "num": 217,
+                "id": 86
+            },
+            {
+                "name": "furniture/table",
+                "num": 217,
+                "id": 98
+            },
+            {
+                "name": "clothes/sling",
+                "num": 217,
+                "id": 17
+            },
+            {
+                "name": "furniture/sofa",
+                "num": 217,
+                "id": 49
+            },
+            {
+                "name": "furniture/chair",
+                "num": 217,
+                "id": 45
+            },
+            {
+                "name": "person/face",
+                "num": 217,
+                "id": 40
+            },
+            {
+                "name": "clothes/sling_dress",
+                "num": 217,
+                "id": 8
+            },
+            {
+                "name": "clothes/long_sleeved_dress",
+                "num": 217,
+                "id": 64
+            },
+            {
+                "name": "hand/hand",
+                "num": 217,
+                "id": 80
+            },
+            {
+                "name": "clothes/vest",
+                "num": 217,
+                "id": 62
+            },
+            {
+                "name": "clothes/vest_dress",
+                "num": 217,
+                "id": 11
+            },
+            {
+                "name": "person/face",
+                "num": 217,
+                "id": 18
+            },
+            {
+                "name": "clothes/skirt",
+                "num": 217,
+                "id": 1
+            },
+            {
+                "name": "clothes/long_sleeved_shirt",
+                "num": 217,
+                "id": 97
+            },
+            {
+                "name": "clothes/shorts",
+                "num": 217,
+                "id": 75
+            },
+            {
+                "name": "clothes/trousers",
+                "num": 217,
+                "id": 67
+            },
+            {
+                "name": "clothes/short_sleeved_shirt",
+                "num": 217,
+                "id": 25
+            },
+            {
+                "name": "person/person",
+                "num": 217,
+                "id": 72
+            }
+        ]
+    },
+    {
+        "file": "mp100_split1_val.json",
+        "num_categories": 10,
+        "categories": [
+            {
+                "name": "animal_face/goldenretriever_face",
+                "num": 140,
+                "id": 48
+            },
+            {
+                "name": "animal_face/guanaco_face",
+                "num": 145,
+                "id": 22
+            },
+            {
+                "name": "animal_face/przewalskihorse_face",
+                "num": 148,
+                "id": 12
+            },
+            {
+                "name": "Castoridae/beaver_body",
+                "num": 197,
+                "id": 91
+            },
+            {
+                "name": "animal_face/gentoopenguin_face",
+                "num": 212,
+                "id": 96
+            },
+            {
+                "name": "Cricetidae/hamster_body",
+                "num": 231,
+                "id": 6
+            },
+            {
+                "name": "Hominidae/gorilla_body",
+                "num": 231,
+                "id": 35
+            },
+            {
+                "name": "Mustelidae/weasel_body",
+                "num": 232,
+                "id": 95
+            },
+            {
+                "name": "animal/fly",
+                "num": 232,
+                "id": 66
+            },
+            {
+                "name": "animal/macaque",
+                "num": 232,
+                "id": 92
+            }
+        ]
+    },
+    {
+        "file": "mp100_split2_test.json",
+        "num_categories": 20,
+        "categories": [
+            {
+                "name": "animal_face/camel_face",
+                "num": 100,
+                "id": 37
+            },
+            {
+                "name": "animal_face/goldenretriever_face",
+                "num": 100,
+                "id": 48
+            },
+            {
+                "name": "animal_face/proboscismonkey_face",
+                "num": 100,
+                "id": 89
+            },
+            {
+                "name": "animal_face/grizzlybear_face",
+                "num": 100,
+                "id": 79
+            },
+            {
+                "name": "animal_face/capebuffalo_face",
+                "num": 100,
+                "id": 82
+            },
+            {
+                "name": "animal_face/capybara_face",
+                "num": 100,
+                "id": 99
+            },
+            {
+                "name": "Castoridae/beaver_body",
+                "num": 100,
+                "id": 91
+            },
+            {
+                "name": "Ursidae/polar_bear_body",
+                "num": 100,
+                "id": 76
+            },
+            {
+                "name": "Giraffidae/giraffe_body",
+                "num": 100,
+                "id": 71
+            },
+            {
+                "name": "Cercopithecidae/spider_monkey_body",
+                "num": 100,
+                "id": 43
+            },
+            {
+                "name": "bird/Gull",
+                "num": 100,
+                "id": 28
+            },
+            {
+                "name": "bird/Warbler",
+                "num": 100,
+                "id": 86
+            },
+            {
+                "name": "furniture/table",
+                "num": 100,
+                "id": 98
+            },
+            {
+                "name": "clothes/sling",
+                "num": 100,
+                "id": 17
+            },
+            {
+                "name": "furniture/chair",
+                "num": 100,
+                "id": 45
+            },
+            {
+                "name": "clothes/sling_dress",
+                "num": 100,
+                "id": 8
+            },
+            {
+                "name": "clothes/vest",
+                "num": 100,
+                "id": 62
+            },
+            {
+                "name": "clothes/long_sleeved_shirt",
+                "num": 100,
+                "id": 97
+            },
+            {
+                "name": "clothes/trousers",
+                "num": 100,
+                "id": 67
+            },
+            {
+                "name": "clothes/short_sleeved_shirt",
+                "num": 100,
+                "id": 25
+            }
+        ]
+    },
+    {
+        "file": "mp100_split2_train.json",
+        "num_categories": 70,
+        "categories": [
+            {
+                "name": "animal_face/klipspringer_face",
+                "num": 142,
+                "id": 10
+            },
+            {
+                "name": "animal_face/onager_face",
+                "num": 145,
+                "id": 56
+            },
+            {
+                "name": "animal_face/guanaco_face",
+                "num": 145,
+                "id": 22
+            },
+            {
+                "name": "animal_face/olivebaboon_face",
+                "num": 147,
+                "id": 69
+            },
+            {
+                "name": "animal_face/pademelon_face",
+                "num": 147,
+                "id": 65
+            },
+            {
+                "name": "animal_face/przewalskihorse_face",
+                "num": 148,
+                "id": 12
+            },
+            {
+                "name": "animal_face/germanshepherddog_face",
+                "num": 149,
+                "id": 74
+            },
+            {
+                "name": "animal_face/arcticwolf_face",
+                "num": 150,
+                "id": 19
+            },
+            {
+                "name": "Felidae/panther_body",
+                "num": 151,
+                "id": 9
+            },
+            {
+                "name": "animal_face/commonwarthog_face",
+                "num": 154,
+                "id": 77
+            },
+            {
+                "name": "animal_face/fallowdeer_face",
+                "num": 157,
+                "id": 23
+            },
+            {
+                "name": "animal_face/californiansealion_face",
+                "num": 163,
+                "id": 13
+            },
+            {
+                "name": "animal_face/blackbuck_face",
+                "num": 172,
+                "id": 94
+            },
+            {
+                "name": "animal_face/greyseal_face",
+                "num": 180,
+                "id": 34
+            },
+            {
+                "name": "animal_face/dassie_face",
+                "num": 181,
+                "id": 24
+            },
+            {
+                "name": "animal_face/fennecfox_face",
+                "num": 182,
+                "id": 4
+            },
+            {
+                "name": "animal_face/alpaca_face",
+                "num": 187,
+                "id": 47
+            },
+            {
+                "name": "animal_face/gibbons_face",
+                "num": 188,
+                "id": 61
+            },
+            {
+                "name": "Sciuridae/squirrel_body",
+                "num": 203,
+                "id": 33
+            },
+            {
+                "name": "vehicle/suv",
+                "num": 204,
+                "id": 51
+            },
+            {
+                "name": "animal_face/chipmunk_face",
+                "num": 207,
+                "id": 7
+            },
+            {
+                "name": "Felidae/leopard_body",
+                "num": 207,
+                "id": 52
+            },
+            {
+                "name": "Felidae/cheetah_body",
+                "num": 212,
+                "id": 85
+            },
+            {
+                "name": "animal_face/gentoopenguin_face",
+                "num": 212,
+                "id": 96
+            },
+            {
+                "name": "Leporidae/rabbit_body",
+                "num": 214,
+                "id": 29
+            },
+            {
+                "name": "Mephitidae/skunk_body",
+                "num": 214,
+                "id": 70
+            },
+            {
+                "name": "Felidae/bobcat_body",
+                "num": 214,
+                "id": 21
+            },
+            {
+                "name": "Procyonidae/raccoon_body",
+                "num": 214,
+                "id": 90
+            },
+            {
+                "name": "Canidae/fox_body",
+                "num": 214,
+                "id": 68
+            },
+            {
+                "name": "Cricetidae/hamster_body",
+                "num": 214,
+                "id": 6
+            },
+            {
+                "name": "vehicle/bus",
+                "num": 214,
+                "id": 38
+            },
+            {
+                "name": "Ursidae/panda_body",
+                "num": 214,
+                "id": 5
+            },
+            {
+                "name": "Hominidae/gorilla_body",
+                "num": 214,
+                "id": 35
+            },
+            {
+                "name": "animal_face/bighornsheep_face",
+                "num": 214,
+                "id": 81
+            },
+            {
+                "name": "animal_face/ferret_face",
+                "num": 214,
+                "id": 63
+            },
+            {
+                "name": "bird/Grebe",
+                "num": 214,
+                "id": 59
+            },
+            {
+                "name": "Muridae/rat_body",
+                "num": 214,
+                "id": 88
+            },
+            {
+                "name": "Felidae/lion_body",
+                "num": 214,
+                "id": 73
+            },
+            {
+                "name": "Canidae/wolf_body",
+                "num": 214,
+                "id": 100
+            },
+            {
+                "name": "Rhinocerotidae/rhino_body",
+                "num": 214,
+                "id": 31
+            },
+            {
+                "name": "vehicle/car",
+                "num": 214,
+                "id": 32
+            },
+            {
+                "name": "Equidae/horse_body",
+                "num": 214,
+                "id": 2
+            },
+            {
+                "name": "Elephantidae/elephant_body",
+                "num": 214,
+                "id": 26
+            },
+            {
+                "name": "bird/Kingfisher",
+                "num": 214,
+                "id": 41
+            },
+            {
+                "name": "Suidae/pig_body",
+                "num": 214,
+                "id": 15
+            },
+            {
+                "name": "Bovidae/cow_body",
+                "num": 214,
+                "id": 87
+            },
+            {
+                "name": "Hippopotamidae/hippo_body",
+                "num": 214,
+                "id": 54
+            },
+            {
+                "name": "bird/Woodpecker",
+                "num": 215,
+                "id": 14
+            },
+            {
+                "name": "Bovidae/bison_body",
+                "num": 215,
+                "id": 30
+            },
+            {
+                "name": "Bovidae/antelope_body",
+                "num": 215,
+                "id": 58
+            },
+            {
+                "name": "Equidae/zebra_body",
+                "num": 215,
+                "id": 55
+            },
+            {
+                "name": "bird/Wren",
+                "num": 215,
+                "id": 16
+            },
+            {
+                "name": "Felidae/cat_body",
+                "num": 215,
+                "id": 20
+            },
+            {
+                "name": "Bovidae/sheep_body",
+                "num": 215,
+                "id": 42
+            },
+            {
+                "name": "clothes/short_sleeved_outwear",
+                "num": 215,
+                "id": 83
+            },
+            {
+                "name": "animal/locust",
+                "num": 215,
+                "id": 44
+            },
+            {
+                "name": "Canidae/dog_body",
+                "num": 215,
+                "id": 3
+            },
+            {
+                "name": "bird/Sparrow",
+                "num": 215,
+                "id": 46
+            },
+            {
+                "name": "furniture/swivelchair",
+                "num": 215,
+                "id": 39
+            },
+            {
+                "name": "animal/fly",
+                "num": 215,
+                "id": 66
+            },
+            {
+                "name": "furniture/bed",
+                "num": 215,
+                "id": 84
+            },
+            {
+                "name": "furniture/sofa",
+                "num": 215,
+                "id": 49
+            },
+            {
+                "name": "person/face",
+                "num": 215,
+                "id": 40
+            },
+            {
+                "name": "clothes/long_sleeved_dress",
+                "num": 215,
+                "id": 64
+            },
+            {
+                "name": "hand/hand",
+                "num": 215,
+                "id": 80
+            },
+            {
+                "name": "animal/macaque",
+                "num": 215,
+                "id": 92
+            },
+            {
+                "name": "clothes/short_sleeved_dress",
+                "num": 215,
+                "id": 60
+            },
+            {
+                "name": "person/face",
+                "num": 215,
+                "id": 18
+            },
+            {
+                "name": "clothes/shorts",
+                "num": 215,
+                "id": 75
+            },
+            {
+                "name": "person/person",
+                "num": 215,
+                "id": 72
+            }
+        ]
+    },
+    {
+        "file": "mp100_split2_val.json",
+        "num_categories": 10,
+        "categories": [
+            {
+                "name": "animal_face/quokka_face",
+                "num": 143,
+                "id": 36
+            },
+            {
+                "name": "animal_face/gerbil_face",
+                "num": 164,
+                "id": 93
+            },
+            {
+                "name": "animal_face/bonobo_face",
+                "num": 200,
+                "id": 57
+            },
+            {
+                "name": "Mustelidae/otter_body",
+                "num": 213,
+                "id": 50
+            },
+            {
+                "name": "Mustelidae/weasel_body",
+                "num": 213,
+                "id": 95
+            },
+            {
+                "name": "Cervidae/deer_body",
+                "num": 213,
+                "id": 27
+            },
+            {
+                "name": "bird/Tern",
+                "num": 213,
+                "id": 53
+            },
+            {
+                "name": "clothes/long_sleeved_outwear",
+                "num": 213,
+                "id": 78
+            },
+            {
+                "name": "clothes/vest_dress",
+                "num": 214,
+                "id": 11
+            },
+            {
+                "name": "clothes/skirt",
+                "num": 214,
+                "id": 1
+            }
+        ]
+    },
+    {
+        "file": "mp100_split3_test.json",
+        "num_categories": 20,
+        "categories": [
+            {
+                "name": "animal_face/guanaco_face",
+                "num": 100,
+                "id": 22
+            },
+            {
+                "name": "animal_face/olivebaboon_face",
+                "num": 100,
+                "id": 69
+            },
+            {
+                "name": "animal_face/przewalskihorse_face",
+                "num": 100,
+                "id": 12
+            },
+            {
+                "name": "Felidae/panther_body",
+                "num": 100,
+                "id": 9
+            },
+            {
+                "name": "animal_face/greyseal_face",
+                "num": 100,
+                "id": 34
+            },
+            {
+                "name": "Felidae/leopard_body",
+                "num": 100,
+                "id": 52
+            },
+            {
+                "name": "animal_face/gentoopenguin_face",
+                "num": 100,
+                "id": 96
+            },
+            {
+                "name": "Felidae/cheetah_body",
+                "num": 100,
+                "id": 85
+            },
+            {
+                "name": "Procyonidae/raccoon_body",
+                "num": 100,
+                "id": 90
+            },
+            {
+                "name": "animal_face/ferret_face",
+                "num": 100,
+                "id": 63
+            },
+            {
+                "name": "Canidae/wolf_body",
+                "num": 100,
+                "id": 100
+            },
+            {
+                "name": "Rhinocerotidae/rhino_body",
+                "num": 100,
+                "id": 31
+            },
+            {
+                "name": "Bovidae/cow_body",
+                "num": 100,
+                "id": 87
+            },
+            {
+                "name": "Hippopotamidae/hippo_body",
+                "num": 100,
+                "id": 54
+            },
+            {
+                "name": "bird/Wren",
+                "num": 100,
+                "id": 16
+            },
+            {
+                "name": "animal/locust",
+                "num": 100,
+                "id": 44
+            },
+            {
+                "name": "animal/fly",
+                "num": 100,
+                "id": 66
+            },
+            {
+                "name": "furniture/sofa",
+                "num": 100,
+                "id": 49
+            },
+            {
+                "name": "clothes/vest_dress",
+                "num": 100,
+                "id": 11
+            },
+            {
+                "name": "person/person",
+                "num": 100,
+                "id": 72
+            }
+        ]
+    },
+    {
+        "file": "mp100_split3_train.json",
+        "num_categories": 70,
+        "categories": [
+            {
+                "name": "animal_face/goldenretriever_face",
+                "num": 140,
+                "id": 48
+            },
+            {
+                "name": "animal_face/camel_face",
+                "num": 140,
+                "id": 37
+            },
+            {
+                "name": "animal_face/klipspringer_face",
+                "num": 142,
+                "id": 10
+            },
+            {
+                "name": "animal_face/quokka_face",
+                "num": 143,
+                "id": 36
+            },
+            {
+                "name": "animal_face/onager_face",
+                "num": 145,
+                "id": 56
+            },
+            {
+                "name": "animal_face/proboscismonkey_face",
+                "num": 145,
+                "id": 89
+            },
+            {
+                "name": "animal_face/pademelon_face",
+                "num": 147,
+                "id": 65
+            },
+            {
+                "name": "animal_face/germanshepherddog_face",
+                "num": 149,
+                "id": 74
+            },
+            {
+                "name": "animal_face/commonwarthog_face",
+                "num": 154,
+                "id": 77
+            },
+            {
+                "name": "animal_face/fallowdeer_face",
+                "num": 157,
+                "id": 23
+            },
+            {
+                "name": "animal_face/grizzlybear_face",
+                "num": 159,
+                "id": 79
+            },
+            {
+                "name": "animal_face/californiansealion_face",
+                "num": 163,
+                "id": 13
+            },
+            {
+                "name": "animal_face/gerbil_face",
+                "num": 164,
+                "id": 93
+            },
+            {
+                "name": "animal_face/capybara_face",
+                "num": 165,
+                "id": 99
+            },
+            {
+                "name": "animal_face/blackbuck_face",
+                "num": 172,
+                "id": 94
+            },
+            {
+                "name": "animal_face/dassie_face",
+                "num": 181,
+                "id": 24
+            },
+            {
+                "name": "animal_face/fennecfox_face",
+                "num": 182,
+                "id": 4
+            },
+            {
+                "name": "animal_face/alpaca_face",
+                "num": 187,
+                "id": 47
+            },
+            {
+                "name": "animal_face/gibbons_face",
+                "num": 188,
+                "id": 61
+            },
+            {
+                "name": "animal_face/bonobo_face",
+                "num": 200,
+                "id": 57
+            },
+            {
+                "name": "vehicle/suv",
+                "num": 204,
+                "id": 51
+            },
+            {
+                "name": "animal_face/chipmunk_face",
+                "num": 207,
+                "id": 7
+            },
+            {
+                "name": "Leporidae/rabbit_body",
+                "num": 215,
+                "id": 29
+            },
+            {
+                "name": "Ursidae/polar_bear_body",
+                "num": 215,
+                "id": 76
+            },
+            {
+                "name": "Canidae/fox_body",
+                "num": 216,
+                "id": 68
+            },
+            {
+                "name": "Cricetidae/hamster_body",
+                "num": 216,
+                "id": 6
+            },
+            {
+                "name": "vehicle/bus",
+                "num": 216,
+                "id": 38
+            },
+            {
+                "name": "Hominidae/gorilla_body",
+                "num": 216,
+                "id": 35
+            },
+            {
+                "name": "Ursidae/panda_body",
+                "num": 216,
+                "id": 5
+            },
+            {
+                "name": "animal_face/bighornsheep_face",
+                "num": 216,
+                "id": 81
+            },
+            {
+                "name": "bird/Grebe",
+                "num": 216,
+                "id": 59
+            },
+            {
+                "name": "Mustelidae/otter_body",
+                "num": 216,
+                "id": 50
+            },
+            {
+                "name": "Muridae/rat_body",
+                "num": 216,
+                "id": 88
+            },
+            {
+                "name": "Felidae/lion_body",
+                "num": 216,
+                "id": 73
+            },
+            {
+                "name": "vehicle/car",
+                "num": 216,
+                "id": 32
+            },
+            {
+                "name": "Equidae/horse_body",
+                "num": 216,
+                "id": 2
+            },
+            {
+                "name": "Mustelidae/weasel_body",
+                "num": 216,
+                "id": 95
+            },
+            {
+                "name": "bird/Kingfisher",
+                "num": 216,
+                "id": 41
+            },
+            {
+                "name": "Giraffidae/giraffe_body",
+                "num": 216,
+                "id": 71
+            },
+            {
+                "name": "Suidae/pig_body",
+                "num": 216,
+                "id": 15
+            },
+            {
+                "name": "Cervidae/deer_body",
+                "num": 216,
+                "id": 27
+            },
+            {
+                "name": "Cercopithecidae/spider_monkey_body",
+                "num": 216,
+                "id": 43
+            },
+            {
+                "name": "bird/Woodpecker",
+                "num": 216,
+                "id": 14
+            },
+            {
+                "name": "Bovidae/antelope_body",
+                "num": 216,
+                "id": 58
+            },
+            {
+                "name": "Equidae/zebra_body",
+                "num": 216,
+                "id": 55
+            },
+            {
+                "name": "bird/Tern",
+                "num": 216,
+                "id": 53
+            },
+            {
+                "name": "Felidae/cat_body",
+                "num": 216,
+                "id": 20
+            },
+            {
+                "name": "bird/Gull",
+                "num": 216,
+                "id": 28
+            },
+            {
+                "name": "Bovidae/sheep_body",
+                "num": 216,
+                "id": 42
+            },
+            {
+                "name": "clothes/short_sleeved_outwear",
+                "num": 216,
+                "id": 83
+            },
+            {
+                "name": "Canidae/dog_body",
+                "num": 216,
+                "id": 3
+            },
+            {
+                "name": "bird/Sparrow",
+                "num": 216,
+                "id": 46
+            },
+            {
+                "name": "bird/Warbler",
+                "num": 216,
+                "id": 86
+            },
+            {
+                "name": "furniture/table",
+                "num": 216,
+                "id": 98
+            },
+            {
+                "name": "clothes/sling",
+                "num": 216,
+                "id": 17
+            },
+            {
+                "name": "furniture/chair",
+                "num": 216,
+                "id": 45
+            },
+            {
+                "name": "person/face",
+                "num": 216,
+                "id": 40
+            },
+            {
+                "name": "clothes/sling_dress",
+                "num": 216,
+                "id": 8
+            },
+            {
+                "name": "clothes/long_sleeved_dress",
+                "num": 216,
+                "id": 64
+            },
+            {
+                "name": "hand/hand",
+                "num": 216,
+                "id": 80
+            },
+            {
+                "name": "clothes/long_sleeved_outwear",
+                "num": 216,
+                "id": 78
+            },
+            {
+                "name": "animal/macaque",
+                "num": 216,
+                "id": 92
+            },
+            {
+                "name": "clothes/vest",
+                "num": 216,
+                "id": 62
+            },
+            {
+                "name": "clothes/short_sleeved_dress",
+                "num": 216,
+                "id": 60
+            },
+            {
+                "name": "person/face",
+                "num": 216,
+                "id": 18
+            },
+            {
+                "name": "clothes/skirt",
+                "num": 216,
+                "id": 1
+            },
+            {
+                "name": "clothes/long_sleeved_shirt",
+                "num": 216,
+                "id": 97
+            },
+            {
+                "name": "clothes/shorts",
+                "num": 216,
+                "id": 75
+            },
+            {
+                "name": "clothes/trousers",
+                "num": 216,
+                "id": 67
+            },
+            {
+                "name": "clothes/short_sleeved_shirt",
+                "num": 216,
+                "id": 25
+            }
+        ]
+    },
+    {
+        "file": "mp100_split3_val.json",
+        "num_categories": 10,
+        "categories": [
+            {
+                "name": "animal_face/arcticwolf_face",
+                "num": 150,
+                "id": 19
+            },
+            {
+                "name": "animal_face/capebuffalo_face",
+                "num": 164,
+                "id": 82
+            },
+            {
+                "name": "Castoridae/beaver_body",
+                "num": 197,
+                "id": 91
+            },
+            {
+                "name": "Sciuridae/squirrel_body",
+                "num": 203,
+                "id": 33
+            },
+            {
+                "name": "Felidae/bobcat_body",
+                "num": 214,
+                "id": 21
+            },
+            {
+                "name": "Mephitidae/skunk_body",
+                "num": 214,
+                "id": 70
+            },
+            {
+                "name": "Elephantidae/elephant_body",
+                "num": 214,
+                "id": 26
+            },
+            {
+                "name": "Bovidae/bison_body",
+                "num": 214,
+                "id": 30
+            },
+            {
+                "name": "furniture/swivelchair",
+                "num": 215,
+                "id": 39
+            },
+            {
+                "name": "furniture/bed",
+                "num": 215,
+                "id": 84
+            }
+        ]
+    },
+    {
+        "file": "mp100_split4_test.json",
+        "num_categories": 20,
+        "categories": [
+            {
+                "name": "animal_face/pademelon_face",
+                "num": 100,
+                "id": 65
+            },
+            {
+                "name": "animal_face/fallowdeer_face",
+                "num": 100,
+                "id": 23
+            },
+            {
+                "name": "animal_face/californiansealion_face",
+                "num": 100,
+                "id": 13
+            },
+            {
+                "name": "animal_face/blackbuck_face",
+                "num": 100,
+                "id": 94
+            },
+            {
+                "name": "animal_face/fennecfox_face",
+                "num": 100,
+                "id": 4
+            },
+            {
+                "name": "animal_face/chipmunk_face",
+                "num": 100,
+                "id": 7
+            },
+            {
+                "name": "vehicle/bus",
+                "num": 100,
+                "id": 38
+            },
+            {
+                "name": "Hominidae/gorilla_body",
+                "num": 100,
+                "id": 35
+            },
+            {
+                "name": "Mustelidae/otter_body",
+                "num": 100,
+                "id": 50
+            },
+            {
+                "name": "Muridae/rat_body",
+                "num": 100,
+                "id": 88
+            },
+            {
+                "name": "Mustelidae/weasel_body",
+                "num": 100,
+                "id": 95
+            },
+            {
+                "name": "bird/Kingfisher",
+                "num": 100,
+                "id": 41
+            },
+            {
+                "name": "Suidae/pig_body",
+                "num": 100,
+                "id": 15
+            },
+            {
+                "name": "Cervidae/deer_body",
+                "num": 100,
+                "id": 27
+            },
+            {
+                "name": "Equidae/zebra_body",
+                "num": 100,
+                "id": 55
+            },
+            {
+                "name": "Felidae/cat_body",
+                "num": 100,
+                "id": 20
+            },
+            {
+                "name": "clothes/short_sleeved_outwear",
+                "num": 100,
+                "id": 83
+            },
+            {
+                "name": "person/face",
+                "num": 100,
+                "id": 40
+            },
+            {
+                "name": "hand/hand",
+                "num": 100,
+                "id": 80
+            },
+            {
+                "name": "animal/macaque",
+                "num": 100,
+                "id": 92
+            }
+        ]
+    },
+    {
+        "file": "mp100_split4_train.json",
+        "num_categories": 70,
+        "categories": [
+            {
+                "name": "animal_face/goldenretriever_face",
+                "num": 140,
+                "id": 48
+            },
+            {
+                "name": "animal_face/camel_face",
+                "num": 140,
+                "id": 37
+            },
+            {
+                "name": "animal_face/klipspringer_face",
+                "num": 142,
+                "id": 10
+            },
+            {
+                "name": "animal_face/quokka_face",
+                "num": 143,
+                "id": 36
+            },
+            {
+                "name": "animal_face/guanaco_face",
+                "num": 145,
+                "id": 22
+            },
+            {
+                "name": "animal_face/proboscismonkey_face",
+                "num": 145,
+                "id": 89
+            },
+            {
+                "name": "animal_face/olivebaboon_face",
+                "num": 147,
+                "id": 69
+            },
+            {
+                "name": "animal_face/germanshepherddog_face",
+                "num": 149,
+                "id": 74
+            },
+            {
+                "name": "animal_face/arcticwolf_face",
+                "num": 150,
+                "id": 19
+            },
+            {
+                "name": "Felidae/panther_body",
+                "num": 151,
+                "id": 9
+            },
+            {
+                "name": "animal_face/commonwarthog_face",
+                "num": 154,
+                "id": 77
+            },
+            {
+                "name": "animal_face/grizzlybear_face",
+                "num": 159,
+                "id": 79
+            },
+            {
+                "name": "animal_face/gerbil_face",
+                "num": 164,
+                "id": 93
+            },
+            {
+                "name": "animal_face/capebuffalo_face",
+                "num": 164,
+                "id": 82
+            },
+            {
+                "name": "animal_face/capybara_face",
+                "num": 165,
+                "id": 99
+            },
+            {
+                "name": "animal_face/greyseal_face",
+                "num": 180,
+                "id": 34
+            },
+            {
+                "name": "animal_face/dassie_face",
+                "num": 181,
+                "id": 24
+            },
+            {
+                "name": "animal_face/alpaca_face",
+                "num": 187,
+                "id": 47
+            },
+            {
+                "name": "animal_face/gibbons_face",
+                "num": 188,
+                "id": 61
+            },
+            {
+                "name": "Castoridae/beaver_body",
+                "num": 197,
+                "id": 91
+            },
+            {
+                "name": "animal_face/bonobo_face",
+                "num": 200,
+                "id": 57
+            },
+            {
+                "name": "Sciuridae/squirrel_body",
+                "num": 203,
+                "id": 33
+            },
+            {
+                "name": "Felidae/leopard_body",
+                "num": 207,
+                "id": 52
+            },
+            {
+                "name": "animal_face/gentoopenguin_face",
+                "num": 212,
+                "id": 96
+            },
+            {
+                "name": "Felidae/cheetah_body",
+                "num": 212,
+                "id": 85
+            },
+            {
+                "name": "Leporidae/rabbit_body",
+                "num": 216,
+                "id": 29
+            },
+            {
+                "name": "Mephitidae/skunk_body",
+                "num": 217,
+                "id": 70
+            },
+            {
+                "name": "Felidae/bobcat_body",
+                "num": 217,
+                "id": 21
+            },
+            {
+                "name": "Procyonidae/raccoon_body",
+                "num": 217,
+                "id": 90
+            },
+            {
+                "name": "Ursidae/polar_bear_body",
+                "num": 217,
+                "id": 76
+            },
+            {
+                "name": "Canidae/fox_body",
+                "num": 217,
+                "id": 68
+            },
+            {
+                "name": "Ursidae/panda_body",
+                "num": 217,
+                "id": 5
+            },
+            {
+                "name": "animal_face/bighornsheep_face",
+                "num": 217,
+                "id": 81
+            },
+            {
+                "name": "animal_face/ferret_face",
+                "num": 217,
+                "id": 63
+            },
+            {
+                "name": "bird/Grebe",
+                "num": 217,
+                "id": 59
+            },
+            {
+                "name": "Rhinocerotidae/rhino_body",
+                "num": 217,
+                "id": 31
+            },
+            {
+                "name": "vehicle/car",
+                "num": 217,
+                "id": 32
+            },
+            {
+                "name": "Equidae/horse_body",
+                "num": 217,
+                "id": 2
+            },
+            {
+                "name": "Giraffidae/giraffe_body",
+                "num": 217,
+                "id": 71
+            },
+            {
+                "name": "Bovidae/cow_body",
+                "num": 217,
+                "id": 87
+            },
+            {
+                "name": "Hippopotamidae/hippo_body",
+                "num": 217,
+                "id": 54
+            },
+            {
+                "name": "Cercopithecidae/spider_monkey_body",
+                "num": 217,
+                "id": 43
+            },
+            {
+                "name": "bird/Woodpecker",
+                "num": 217,
+                "id": 14
+            },
+            {
+                "name": "Bovidae/bison_body",
+                "num": 217,
+                "id": 30
+            },
+            {
+                "name": "Bovidae/antelope_body",
+                "num": 217,
+                "id": 58
+            },
+            {
+                "name": "bird/Tern",
+                "num": 217,
+                "id": 53
+            },
+            {
+                "name": "bird/Wren",
+                "num": 217,
+                "id": 16
+            },
+            {
+                "name": "bird/Gull",
+                "num": 217,
+                "id": 28
+            },
+            {
+                "name": "Bovidae/sheep_body",
+                "num": 217,
+                "id": 42
+            },
+            {
+                "name": "animal/locust",
+                "num": 217,
+                "id": 44
+            },
+            {
+                "name": "Canidae/dog_body",
+                "num": 217,
+                "id": 3
+            },
+            {
+                "name": "bird/Sparrow",
+                "num": 217,
+                "id": 46
+            },
+            {
+                "name": "furniture/swivelchair",
+                "num": 217,
+                "id": 39
+            },
+            {
+                "name": "animal/fly",
+                "num": 217,
+                "id": 66
+            },
+            {
+                "name": "furniture/bed",
+                "num": 217,
+                "id": 84
+            },
+            {
+                "name": "bird/Warbler",
+                "num": 217,
+                "id": 86
+            },
+            {
+                "name": "furniture/table",
+                "num": 217,
+                "id": 98
+            },
+            {
+                "name": "clothes/sling",
+                "num": 217,
+                "id": 17
+            },
+            {
+                "name": "furniture/sofa",
+                "num": 217,
+                "id": 49
+            },
+            {
+                "name": "furniture/chair",
+                "num": 218,
+                "id": 45
+            },
+            {
+                "name": "clothes/sling_dress",
+                "num": 218,
+                "id": 8
+            },
+            {
+                "name": "clothes/long_sleeved_dress",
+                "num": 218,
+                "id": 64
+            },
+            {
+                "name": "clothes/long_sleeved_outwear",
+                "num": 218,
+                "id": 78
+            },
+            {
+                "name": "clothes/vest",
+                "num": 218,
+                "id": 62
+            },
+            {
+                "name": "clothes/short_sleeved_dress",
+                "num": 218,
+                "id": 60
+            },
+            {
+                "name": "clothes/vest_dress",
+                "num": 218,
+                "id": 11
+            },
+            {
+                "name": "clothes/long_sleeved_shirt",
+                "num": 218,
+                "id": 97
+            },
+            {
+                "name": "clothes/shorts",
+                "num": 218,
+                "id": 75
+            },
+            {
+                "name": "clothes/trousers",
+                "num": 218,
+                "id": 67
+            },
+            {
+                "name": "person/person",
+                "num": 218,
+                "id": 72
+            }
+        ]
+    },
+    {
+        "file": "mp100_split4_val.json",
+        "num_categories": 10,
+        "categories": [
+            {
+                "name": "animal_face/onager_face",
+                "num": 145,
+                "id": 56
+            },
+            {
+                "name": "animal_face/przewalskihorse_face",
+                "num": 148,
+                "id": 12
+            },
+            {
+                "name": "vehicle/suv",
+                "num": 204,
+                "id": 51
+            },
+            {
+                "name": "Cricetidae/hamster_body",
+                "num": 214,
+                "id": 6
+            },
+            {
+                "name": "Felidae/lion_body",
+                "num": 214,
+                "id": 73
+            },
+            {
+                "name": "Canidae/wolf_body",
+                "num": 215,
+                "id": 100
+            },
+            {
+                "name": "Elephantidae/elephant_body",
+                "num": 215,
+                "id": 26
+            },
+            {
+                "name": "person/face",
+                "num": 215,
+                "id": 18
+            },
+            {
+                "name": "clothes/skirt",
+                "num": 215,
+                "id": 1
+            },
+            {
+                "name": "clothes/short_sleeved_shirt",
+                "num": 215,
+                "id": 25
+            }
+        ]
+    },
+    {
+        "file": "mp100_split5_test.json",
+        "num_categories": 20,
+        "categories": [
+            {
+                "name": "animal_face/quokka_face",
+                "num": 100,
+                "id": 36
+            },
+            {
+                "name": "animal_face/onager_face",
+                "num": 100,
+                "id": 56
+            },
+            {
+                "name": "animal_face/germanshepherddog_face",
+                "num": 100,
+                "id": 74
+            },
+            {
+                "name": "animal_face/arcticwolf_face",
+                "num": 100,
+                "id": 19
+            },
+            {
+                "name": "animal_face/gerbil_face",
+                "num": 100,
+                "id": 93
+            },
+            {
+                "name": "animal_face/gibbons_face",
+                "num": 100,
+                "id": 61
+            },
+            {
+                "name": "animal_face/bonobo_face",
+                "num": 100,
+                "id": 57
+            },
+            {
+                "name": "vehicle/suv",
+                "num": 100,
+                "id": 51
+            },
+            {
+                "name": "Felidae/bobcat_body",
+                "num": 100,
+                "id": 21
+            },
+            {
+                "name": "Cricetidae/hamster_body",
+                "num": 100,
+                "id": 6
+            },
+            {
+                "name": "Ursidae/panda_body",
+                "num": 100,
+                "id": 5
+            },
+            {
+                "name": "bird/Grebe",
+                "num": 100,
+                "id": 59
+            },
+            {
+                "name": "vehicle/car",
+                "num": 100,
+                "id": 32
+            },
+            {
+                "name": "Elephantidae/elephant_body",
+                "num": 100,
+                "id": 26
+            },
+            {
+                "name": "Bovidae/antelope_body",
+                "num": 100,
+                "id": 58
+            },
+            {
+                "name": "bird/Sparrow",
+                "num": 100,
+                "id": 46
+            },
+            {
+                "name": "clothes/long_sleeved_dress",
+                "num": 100,
+                "id": 64
+            },
+            {
+                "name": "person/face",
+                "num": 100,
+                "id": 18
+            },
+            {
+                "name": "clothes/skirt",
+                "num": 100,
+                "id": 1
+            },
+            {
+                "name": "clothes/shorts",
+                "num": 100,
+                "id": 75
+            }
+        ]
+    },
+    {
+        "file": "mp100_split5_train.json",
+        "num_categories": 70,
+        "categories": [
+            {
+                "name": "animal_face/goldenretriever_face",
+                "num": 140,
+                "id": 48
+            },
+            {
+                "name": "animal_face/camel_face",
+                "num": 140,
+                "id": 37
+            },
+            {
+                "name": "animal_face/klipspringer_face",
+                "num": 142,
+                "id": 10
+            },
+            {
+                "name": "animal_face/guanaco_face",
+                "num": 145,
+                "id": 22
+            },
+            {
+                "name": "animal_face/proboscismonkey_face",
+                "num": 145,
+                "id": 89
+            },
+            {
+                "name": "animal_face/pademelon_face",
+                "num": 147,
+                "id": 65
+            },
+            {
+                "name": "animal_face/olivebaboon_face",
+                "num": 147,
+                "id": 69
+            },
+            {
+                "name": "animal_face/przewalskihorse_face",
+                "num": 148,
+                "id": 12
+            },
+            {
+                "name": "animal_face/fallowdeer_face",
+                "num": 157,
+                "id": 23
+            },
+            {
+                "name": "animal_face/grizzlybear_face",
+                "num": 159,
+                "id": 79
+            },
+            {
+                "name": "animal_face/californiansealion_face",
+                "num": 163,
+                "id": 13
+            },
+            {
+                "name": "animal_face/capebuffalo_face",
+                "num": 164,
+                "id": 82
+            },
+            {
+                "name": "animal_face/capybara_face",
+                "num": 165,
+                "id": 99
+            },
+            {
+                "name": "animal_face/blackbuck_face",
+                "num": 172,
+                "id": 94
+            },
+            {
+                "name": "animal_face/greyseal_face",
+                "num": 180,
+                "id": 34
+            },
+            {
+                "name": "animal_face/dassie_face",
+                "num": 181,
+                "id": 24
+            },
+            {
+                "name": "animal_face/fennecfox_face",
+                "num": 182,
+                "id": 4
+            },
+            {
+                "name": "animal_face/alpaca_face",
+                "num": 187,
+                "id": 47
+            },
+            {
+                "name": "Castoridae/beaver_body",
+                "num": 197,
+                "id": 91
+            },
+            {
+                "name": "Sciuridae/squirrel_body",
+                "num": 203,
+                "id": 33
+            },
+            {
+                "name": "animal_face/chipmunk_face",
+                "num": 207,
+                "id": 7
+            },
+            {
+                "name": "Felidae/cheetah_body",
+                "num": 212,
+                "id": 85
+            },
+            {
+                "name": "animal_face/gentoopenguin_face",
+                "num": 212,
+                "id": 96
+            },
+            {
+                "name": "Leporidae/rabbit_body",
+                "num": 215,
+                "id": 29
+            },
+            {
+                "name": "Mephitidae/skunk_body",
+                "num": 215,
+                "id": 70
+            },
+            {
+                "name": "Procyonidae/raccoon_body",
+                "num": 215,
+                "id": 90
+            },
+            {
+                "name": "Ursidae/polar_bear_body",
+                "num": 215,
+                "id": 76
+            },
+            {
+                "name": "Canidae/fox_body",
+                "num": 215,
+                "id": 68
+            },
+            {
+                "name": "vehicle/bus",
+                "num": 215,
+                "id": 38
+            },
+            {
+                "name": "animal_face/bighornsheep_face",
+                "num": 215,
+                "id": 81
+            },
+            {
+                "name": "Hominidae/gorilla_body",
+                "num": 215,
+                "id": 35
+            },
+            {
+                "name": "animal_face/ferret_face",
+                "num": 215,
+                "id": 63
+            },
+            {
+                "name": "Muridae/rat_body",
+                "num": 215,
+                "id": 88
+            },
+            {
+                "name": "Felidae/lion_body",
+                "num": 215,
+                "id": 73
+            },
+            {
+                "name": "Canidae/wolf_body",
+                "num": 215,
+                "id": 100
+            },
+            {
+                "name": "Mustelidae/weasel_body",
+                "num": 215,
+                "id": 95
+            },
+            {
+                "name": "Giraffidae/giraffe_body",
+                "num": 215,
+                "id": 71
+            },
+            {
+                "name": "Suidae/pig_body",
+                "num": 215,
+                "id": 15
+            },
+            {
+                "name": "Bovidae/cow_body",
+                "num": 215,
+                "id": 87
+            },
+            {
+                "name": "Hippopotamidae/hippo_body",
+                "num": 215,
+                "id": 54
+            },
+            {
+                "name": "Cervidae/deer_body",
+                "num": 215,
+                "id": 27
+            },
+            {
+                "name": "Cercopithecidae/spider_monkey_body",
+                "num": 215,
+                "id": 43
+            },
+            {
+                "name": "Bovidae/bison_body",
+                "num": 215,
+                "id": 30
+            },
+            {
+                "name": "Equidae/zebra_body",
+                "num": 215,
+                "id": 55
+            },
+            {
+                "name": "bird/Wren",
+                "num": 215,
+                "id": 16
+            },
+            {
+                "name": "Felidae/cat_body",
+                "num": 215,
+                "id": 20
+            },
+            {
+                "name": "bird/Gull",
+                "num": 215,
+                "id": 28
+            },
+            {
+                "name": "Bovidae/sheep_body",
+                "num": 215,
+                "id": 42
+            },
+            {
+                "name": "clothes/short_sleeved_outwear",
+                "num": 215,
+                "id": 83
+            },
+            {
+                "name": "animal/locust",
+                "num": 215,
+                "id": 44
+            },
+            {
+                "name": "Canidae/dog_body",
+                "num": 215,
+                "id": 3
+            },
+            {
+                "name": "furniture/swivelchair",
+                "num": 215,
+                "id": 39
+            },
+            {
+                "name": "animal/fly",
+                "num": 215,
+                "id": 66
+            },
+            {
+                "name": "furniture/bed",
+                "num": 215,
+                "id": 84
+            },
+            {
+                "name": "bird/Warbler",
+                "num": 215,
+                "id": 86
+            },
+            {
+                "name": "furniture/table",
+                "num": 215,
+                "id": 98
+            },
+            {
+                "name": "furniture/sofa",
+                "num": 215,
+                "id": 49
+            },
+            {
+                "name": "furniture/chair",
+                "num": 215,
+                "id": 45
+            },
+            {
+                "name": "person/face",
+                "num": 215,
+                "id": 40
+            },
+            {
+                "name": "clothes/sling_dress",
+                "num": 215,
+                "id": 8
+            },
+            {
+                "name": "hand/hand",
+                "num": 215,
+                "id": 80
+            },
+            {
+                "name": "clothes/long_sleeved_outwear",
+                "num": 215,
+                "id": 78
+            },
+            {
+                "name": "animal/macaque",
+                "num": 215,
+                "id": 92
+            },
+            {
+                "name": "clothes/vest",
+                "num": 215,
+                "id": 62
+            },
+            {
+                "name": "clothes/short_sleeved_dress",
+                "num": 215,
+                "id": 60
+            },
+            {
+                "name": "clothes/vest_dress",
+                "num": 215,
+                "id": 11
+            },
+            {
+                "name": "clothes/long_sleeved_shirt",
+                "num": 215,
+                "id": 97
+            },
+            {
+                "name": "clothes/trousers",
+                "num": 215,
+                "id": 67
+            },
+            {
+                "name": "clothes/short_sleeved_shirt",
+                "num": 215,
+                "id": 25
+            },
+            {
+                "name": "person/person",
+                "num": 215,
+                "id": 72
+            }
+        ]
+    },
+    {
+        "file": "mp100_split5_val.json",
+        "num_categories": 10,
+        "categories": [
+            {
+                "name": "Felidae/panther_body",
+                "num": 151,
+                "id": 9
+            },
+            {
+                "name": "animal_face/commonwarthog_face",
+                "num": 154,
+                "id": 77
+            },
+            {
+                "name": "Felidae/leopard_body",
+                "num": 207,
+                "id": 52
+            },
+            {
+                "name": "Mustelidae/otter_body",
+                "num": 212,
+                "id": 50
+            },
+            {
+                "name": "Rhinocerotidae/rhino_body",
+                "num": 212,
+                "id": 31
+            },
+            {
+                "name": "Equidae/horse_body",
+                "num": 212,
+                "id": 2
+            },
+            {
+                "name": "bird/Kingfisher",
+                "num": 213,
+                "id": 41
+            },
+            {
+                "name": "bird/Woodpecker",
+                "num": 213,
+                "id": 14
+            },
+            {
+                "name": "bird/Tern",
+                "num": 213,
+                "id": 53
+            },
+            {
+                "name": "clothes/sling",
+                "num": 213,
+                "id": 17
+            }
+        ]
+    }
+]
