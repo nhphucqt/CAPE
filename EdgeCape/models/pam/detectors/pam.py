@@ -107,7 +107,7 @@ class PoseAnythingModel(BasePose):
         """Defines the computation performed at every call when training."""
         bs, _, h, w = img_q.shape
 
-        output, initial_proposals, similarity_map, mask_s = self.predict(
+        output, initial_proposals, similarity_map, mask_s, feature_q, feature_s, query_embed, attn_maps = self.predict(
             img_s, target_s, target_weight_s, img_q, img_metas)
 
         # parse the img meta to get the target keypoints
@@ -143,7 +143,7 @@ class PoseAnythingModel(BasePose):
         """Defines the computation performed at every call when testing."""
         batch_size, _, img_height, img_width = img_q.shape
 
-        output, initial_proposals, similarity_map, _ = self.predict(img_s, target_s, target_weight_s, img_q, img_metas)
+        output, initial_proposals, similarity_map, mask_s, feature_q, feature_s, query_embed, attn_maps = self.predict(img_s, target_s, target_weight_s, img_q, img_metas)
         predicted_pose = output[-1].detach().cpu().numpy()  # [bs, num_query, 2]
 
         result = {}
@@ -156,6 +156,13 @@ class PoseAnythingModel(BasePose):
                 torch.cat((initial_proposals, output.squeeze(1))).cpu().numpy()
         })
         result.update({"sample_image_file": img_metas[0]['sample_image_file']})
+        result.update({
+            "feature_q": feature_q.detach().cpu(),
+            "feature_s": [fs.detach().cpu() for fs in feature_s],
+            "query_embed": query_embed.detach().cpu(),
+            "similarity_map": similarity_map.detach().cpu().numpy(),
+            "attn_maps": [a.detach().cpu() for a in attn_maps]
+        })
 
         return result
 
@@ -176,9 +183,9 @@ class PoseAnythingModel(BasePose):
         for target_weight in target_weight_s:
             mask_s = mask_s * target_weight
 
-        output, initial_proposals, similarity_map = self.keypoint_head(feature_q, feature_s, target_s, mask_s, skeleton)
+        output, initial_proposals, similarity_map, query_embed, attn_maps = self.keypoint_head(feature_q, feature_s, target_s, mask_s, skeleton)
 
-        return output, initial_proposals, similarity_map, mask_s
+        return output, initial_proposals, similarity_map, mask_s, feature_q, feature_s, query_embed, attn_maps
 
     def extract_features(self, img_s, img_q):
         if self.backbone_type == 'swin':
